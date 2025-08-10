@@ -36,10 +36,3 @@ Sentiment analysis uses natural language processing and machine learning techniq
 - **Environment Management**: Conda
 
 ---
-
-## 🔧 Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/RealTimeSentimentApp.git
-cd RealTimeSentimentApp
