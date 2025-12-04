@@ -2,16 +2,16 @@
 
 This project implements a streamlined prediction pipeline for classifying the sentiment (Positive or Negative) of a given text input using a pre-trained Machine Learning model. The core of the pipeline is built around essential Natural Language Processing (NLP) techniques: Preprocessing, Vectorization, and Classification.
 
-## 🚀 How It Works (The Pipeline)
+## How It Works (The Pipeline)
 
-The `prediction_pipeline.ipynb` notebook demonstrates the four key stages required to turn raw text into a sentiment prediction:
+The four key stages required to turn raw text into a sentiment prediction:
 
 1.  **Input:** A raw string of text (e.g., "great product, I love it!!!!!!").
 2.  **Preprocessing:** Cleans the text by removing noise, standardizing case, and reducing words to their roots.
 3.  **Vectorization:** Converts the clean text into a numerical format (a feature vector) that the model can understand.
 4.  **Prediction:** The trained model classifies the numerical vector as either 'positive' or 'negative'.
 
-## ⚙️ Key Functions
+## Key Functions
 
 ### 1. `preprocessing(text)`
 This function is the text-cleaning step. It applies the following in order:
