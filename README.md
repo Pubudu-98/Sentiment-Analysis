@@ -1,4 +1,4 @@
-# Simple Sentiment Analysis Prediction Pipeline
+# Sentiment Analysis Prediction Pipeline
 
 This project implements a streamlined prediction pipeline for classifying the sentiment (Positive or Negative) of a given text input using a pre-trained Machine Learning model. The core of the pipeline is built around essential Natural Language Processing (NLP) techniques: Preprocessing, Vectorization, and Classification.
 
@@ -9,18 +9,7 @@ The `prediction_pipeline.ipynb` notebook demonstrates the four key stages requir
 1.  **Input:** A raw string of text (e.g., "great product, I love it!!!!!!").
 2.  **Preprocessing:** Cleans the text by removing noise, standardizing case, and reducing words to their roots.
 3.  **Vectorization:** Converts the clean text into a numerical format (a feature vector) that the model can understand.
-4.  **Prediction:** The trained model classifies the numerical vector as either 'positive' or 'negetive'.
-
-## 🛠️ Project Structure
-
-The notebook relies on several external files that must be correctly located in the directory structure:
-
-| File/Path | Description | Purpose |
-| :--- | :--- | :--- |
-| `prediction_pipeline.ipynb` | The main execution script containing the pipeline logic. | Executes the prediction flow. |
-| `../static/model/sentiment_model.pkl` | The serialized (pickled) machine learning classification model (e.g., Logistic Regression). | Used by `model.predict()` to make the final classification. |
-| `../static/model/corpora/vocabulary.txt` | A list of all unique words (`tokens`) the model was trained on. | Used by the `vectorizer` to create the numerical input vector. |
-| `../static/model/corpora/stopwords/english` | A list of common English words (stopwords) to be removed during preprocessing. | Used by the `preprocessing` function to clean the text. |
+4.  **Prediction:** The trained model classifies the numerical vector as either 'positive' or 'negative'.
 
 ## ⚙️ Key Functions
 
