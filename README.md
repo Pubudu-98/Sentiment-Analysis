@@ -428,18 +428,8 @@ Contributions are welcome! Here's how:
 
 ## 👨‍💻 Author
 
-**Pubudu Kumara**  
+**Pubudu Piyumal**  
 [GitHub](https://github.com/Pubudu-98) | Portfolio
-
----
-
-## 📞 Support
-
-- 🐛 **Issues**: Open an issue on GitHub
-- 💬 **Discussions**: Use GitHub Discussions for Q&A
-- 📧 **Email**: [Contact info]
-
----
 
 ## 📝 License
 
